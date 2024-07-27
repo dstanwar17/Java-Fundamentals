@@ -35,6 +35,15 @@ public class Exercise_05 {
         System.out.println(str3.replace('h', 'b'));
         System.out.println(str3.contains("Hello"));
 
+        // Additional Fundamental Java exercises on Arithmetic Operators
+        int a = 5000;
+        int b = 3000;
+        System.out.println(a ^ b);
+        System.out.println(a | b);
+
+        String result = a > b ? "A is greater than B" : "A is less than B";
+        System.out.println(result);
+
     }
 
 

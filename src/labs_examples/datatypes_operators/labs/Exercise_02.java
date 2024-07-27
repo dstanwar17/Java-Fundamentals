@@ -24,6 +24,13 @@ public class Exercise_02 {
     public static void main(String[] args) {
 
         // write code here
+        int intVar = 10;
+        double doubleVar = (double) intVar;
+        System.out.println(doubleVar);
+
+        double newDouble = 10.5;
+        int newInt = (int) newDouble;
+        System.out.println(newInt); // We are losing information when we are doing narrowing conversion.
 
     }
 }

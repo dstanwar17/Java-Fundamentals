@@ -1,5 +1,7 @@
 package labs_examples.datatypes_operators.labs;
 
+import java.sql.SQLOutput;
+
 /**
  * Please demonstrate the use of all logical operators below. These include:
  *
@@ -18,6 +20,32 @@ class LogicalOperators {
         }
 
         // write your code below
+        // AND
+
+        if (a & b){
+            System.out.println("In 'a & b' either of the condition is false");
+        }
+
+        // Short Circuit AND
+        if (a && b){
+            System.out.println("In 'a && b' either of the condition is false");
+        }
+
+        // Short Circuit OR
+       if (a || b){
+           System.out.println("Unlike regular OR, in this it will evaluate second condition only if first condition is false");
+       }
+
+
+        // XOR
+        if (a ^ b){
+            System.out.println("One of the condition to be false and other one true for printing the output");
+        }
+
+        // NOT
+        if (a && !b) {
+            System.out.println("a is true and b is false");
+        }
 
     }
 
