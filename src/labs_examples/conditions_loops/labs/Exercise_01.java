@@ -24,6 +24,18 @@ public class Exercise_01 {
         int number = scanner.nextInt();
 
         // write completed code here
+        if (number > 0 && number <= 1000000) {
+
+            if (number % 2 == 0) {
+                System.out.println(number + " is an Even Number");
+            } else {
+                System.out.println(number + " is an Odd Number");
+            }
+
+        } else {
+            System.out.println("Invalid number. Please enter the number within the range 1 to 1,000,000");
+        }
+
 
     }
 }
