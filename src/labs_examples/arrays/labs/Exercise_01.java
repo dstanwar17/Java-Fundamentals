@@ -42,7 +42,7 @@ public class Exercise_01 {
 //        numbers[9] = sc.nextInt();
 
         for (int j = 0; j < 10; j++) {
-            System.out.println("Please enter " +(j+1)+ " number"); // How can I make i here to increase from 1 onwards rather than 0?
+            System.out.println("Please enter " +(j+1)+ " number: "); // How can I make i here to increase from 1 onwards rather than 0?
             numbers[j] = sc.nextInt();
 
         }
