@@ -18,6 +18,16 @@ package labs_examples.arrays.labs;
 public class Exercise_03 {
 
     public static void main(String[] args) {
-        
+
+        int[][] someArray = new int[5][5];
+        int value = 1;
+        for (int i = 0; i < someArray.length; i++) {
+            for (int j = 0; j < someArray[i].length; j++ ) {
+                someArray[i][j] = value * 3;
+                value++;
+                System.out.print(someArray[i][j] + " ");
+            }
+            System.out.println();
+        }
     }
 }
