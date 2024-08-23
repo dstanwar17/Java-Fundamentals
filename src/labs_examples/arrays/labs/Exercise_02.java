@@ -22,10 +22,12 @@ public class Exercise_02 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter any number between 1 to 10 for which you want to know the index: ");
         int num = sc.nextInt();
+        sc.close();
 
         for (int i = 0; i < array.length; i++) {
+
             if (num == array[i]) {
-                System.out.println("Index of " + num + " is : Index - " + i);
+                System.out.println("Index of " + num + " is : " + i);
             }
         }
 
