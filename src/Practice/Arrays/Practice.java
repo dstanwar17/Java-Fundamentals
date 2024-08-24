@@ -33,5 +33,19 @@ public class Practice {
             System.out.println(star.repeat(n-i));
         }
 
+        int[] someArray = new int[10];
+        for (int i = 0; i < someArray.length ; i++) {
+            someArray[i] = i;
+        }
+        for (int element : someArray) {
+            System.out.print(element + " , ");
+        }
+        System.out.println();
+        int sum = 0;
+        for (int element : someArray) {
+            sum += element;
+        }
+        System.out.println(sum);
+
     }
 }
