@@ -1,5 +1,7 @@
 package labs_examples.arrays.labs;
 
+import java.util.ArrayList; // We need to import this library before we can use the ArrayList and its associated methods.
+
 /**
  *  ArrayLists
  *
@@ -10,4 +12,19 @@ package labs_examples.arrays.labs;
  *
  */
 public class Exercise_07 {
+    public static void main(String[] args) {
+
+        ArrayList<String> someList = new ArrayList<>();
+
+        for (int i = 0; i < 10; i++) {
+            someList.add("a".repeat(i*3));
+            System.out.println(someList);
+        }
+
+        System.out.println(someList.size());
+
+        for (int i = 0; i < someList.size(); i++) {
+            System.out.println(someList.get(i));
+        }
+    }
 }
