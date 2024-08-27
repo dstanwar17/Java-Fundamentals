@@ -9,6 +9,7 @@ public class ClassOne {
 
         classOne.protectedVar = 10;
         classOne.publicVar = 20;
+        classOne.changePrivatevar(30);
 
 
 

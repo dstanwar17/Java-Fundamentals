@@ -9,6 +9,12 @@ public class AccessMod {
     protected int protectedVar;
     private int privateVar;
 
+    public void changePrivatevar(int val) {
+        if (val >= 0 && val <= 1000) {
+            privateVar = val;
+        }
+    }
+
     /*
         Access Modifiers - affect classes, instance variables and methods. They play a large role in Encapsulation;
                           one of the primary tenants of Object-Oriented Programming.
