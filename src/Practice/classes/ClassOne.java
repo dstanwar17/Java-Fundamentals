@@ -11,8 +11,5 @@ public class ClassOne {
         classOne.publicVar = 20;
         classOne.changePrivatevar(30);
 
-
-
-
     }
 }
