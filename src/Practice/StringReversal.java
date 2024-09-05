@@ -29,6 +29,8 @@ public class StringReversal {
         } else {
             System.out.println("No, it is not a Palindrome");
         }
+
+        System.out.println(word.substring(0, word.length() - 2));
     }
 
 }
