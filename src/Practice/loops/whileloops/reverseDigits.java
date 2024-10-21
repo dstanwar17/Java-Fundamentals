@@ -34,6 +34,7 @@ public class reverseDigits {
 
 
         while (n2 > 0) {
+            System.out.println(n2);
             ans = (ans * 10) + (n2 % 10);
             n2 = n2/10;
         }
